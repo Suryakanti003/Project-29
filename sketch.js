@@ -69,5 +69,7 @@ function mouseReleased() {
 }
 
 function keyPressed() {
-  sling.attach(polygon);
+  if(key == ' '){
+    sling.attach(polygon);
+  }
 }
